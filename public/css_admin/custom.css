@@ -1,0 +1,391 @@
+.sidebar-content,.js-simplebar,.sidebar-nav, .sidebar-item,.sidebar-link{
+    background: #fffc00;
+    background: -webkit-linear-gradient(to right, #ecca6e, #a0722b); 
+    background: linear-gradient(to right, #ecca6e, #a0722b) !important;
+}
+
+.sidebar-link{
+    color: rgb(0,0,0,0.7) !important;
+    font-weight: bold !important;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+}
+
+.sidebar-link > i {
+    color: rgb(0,0,0,0.7) !important;
+}
+
+.sidebar-link:hover{
+    background: rgb(0,0,0,0.7) !important;
+    color: #ecca6e !important;
+}
+ 
+.sidebar-item > .active{
+    background: rgb(0,0,0,0.7) !important;
+    color: #ecca6e !important;
+}
+
+.title-card, .title-head{
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+    color: #fff !important;
+}
+
+.spantxt{
+    line-height: 2 !important;
+}
+
+.title-card-modal{
+  text-transform: capitalize;
+  font-family: 'Spectral SC', serif;
+  color: rgb(0,0,0,0.7) !important;
+}
+
+.num-color{
+   padding: 10px !important;
+   cursor:pointer;
+   pointer-events: auto;
+   border-radius: 25px !important;
+   color: rgb(0,0,0,0.6) !important;
+   background: #fffc00;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #ecca6e, #a0722b);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #ecca6e, #a0722b) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.span-red-num{
+  background-color: red !important;  /* fallback for old browsers */
+  padding: 10px !important;
+  cursor:pointer;
+  pointer-events: auto;
+  border-radius: 25px !important;
+  color: rgb(0,0,0,0.6) !important;
+}
+
+.num-span > p {
+    color: rgb(0,0,0,0.6) !important;
+}
+
+.num-span > .num-txt{
+  color: rgb(0,0,0,0.6) !important;
+  font-size: 23px !important;
+}
+
+.num-span > .amt-txt{
+  color: rgb(0,0,0,0.6) !important;
+  font-size: 10px !important;
+}
+
+.content{
+    background: rgb(0,0,0,0.7) !important;
+}
+
+#main-card{
+    background: rgb(0,0,0,0.1) !important;
+}
+
+.nav-pills > .nav-item > .active{
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ecca6e, #a0722b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ecca6e, #a0722b) !important; 
+    color: rgb(0,0,0,0.7) !important;
+}
+
+.nav-pills > .nav-item > button{
+    color: #fff !important;
+    border-radius: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+.label {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 2px;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.n-agent{
+  float: right !important;
+}
+
+.flota-right{
+  float: right !important;
+}
+
+::placeholder{
+    opacity: 0.7 !important;
+    font-family: 'Spectral SC', serif;
+}
+
+.divide{
+    border-color: #ecca6e !important;
+}
+.switch > label{
+    display: block;
+    width: 54px;
+    height: 32px;
+    margin: 0px auto;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    background-color: #E6E9EC;
+  }
+  
+  .switch > input{
+    display: none;
+  }
+  
+  
+  .switch > label > i{
+    height: 28px;
+    width: 28px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 100px;
+    margin-top: 2px;
+    cursor: pointer !important;
+    margin-right: 23px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    pointer-events: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
+  }
+  
+  .switch > label:hover > i{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
+    transform: scale(1.01);
+  }
+  
+  .togg:checked+label>i{
+    margin-left: 24px;
+  }
+  
+  .switch > label:active{
+    background-color: #A6B9CB;
+  }
+  
+  .switch > label:active > i{
+    width: 34px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+  }
+  
+  .togg:checked+label:active>i{
+    margin-left: 18px;
+  }
+  
+  .togg:checked+label{
+    background-color: #00ff6a;
+  }
+
+  .update-btn{
+      float: right !important;
+      text-align: right !important;
+  }
+
+  .lucky-btn{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgb(236, 202, 110,0.7) !important;
+    background: #494a4b !important;  /* fallback for old browsers */
+    color: #fff !important;
+    border-color: #000 !important;
+   
+  }
+
+  .lucky-btn:focus{
+      box-shadow: none !important;
+  }
+
+  .lucky-btn:hover{
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.7) !important;
+    color: rgb(0,0,0,0.7) !important;
+    background: #fffc00;  /* fallback for old browsers */
+    letter-spacing: 2px;
+    border-radius: 25px;
+    background: -webkit-linear-gradient(to right, #ecca6e, #a0722b); 
+    background: linear-gradient(to right, #ecca6e, #a0722b) !important; 
+    transition    : all 0.5s ease-in-out; 
+    -o-transition       : all 0.5s ease-in-out;
+    -moz-transition     : all 0.5s ease-in-out;
+  -webkit-transition  : all 0.5s ease-in-out;
+  }
+
+
+  .dataTables_length > label {
+    color: #fff !important;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 2px;
+    margin-bottom: 30px !important;
+  }
+
+  .tablee > :not(:last-child)> :last-child>* {
+    text-align: center !important;
+    border-bottom: none !important;
+}
+.tablee > thead, .tablee > tfoot, .tablee > thead > tr, .tablee > thead > tr > th
+  {
+    border: none !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center !important;
+    font-family: 'PT Serif', serif;
+    color: #fff !important;
+  }
+
+  .tablee > tbody > tr {
+    text-align: center !important;
+  }
+
+  table.dataTable.dtr-inline.collapsed > tbody > tr > td.child, table.dataTable.dtr-inline.collapsed > tbody > tr > th.child, table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty{
+    cursor: pointer !important;
+    background-color: #fff !important;
+  }
+
+  .lucky-btn > i {
+    margin-right: 5px;
+  }
+
+  .tablee > tbody > tr > td{
+    color: #000 !important;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 2px;
+  }
+
+  .tablee > thead > tr {
+    margin-top: 10% !important;
+  }
+
+  .dataTables_info{
+    color: #fff !important;
+    font-family: 'PT Serif', serif;
+  }
+
+  .dataTables_filter{
+    color: #fff !important;
+    font-family: 'PT Serif', serif;
+  }
+
+  .dataTables_filter > label > input:focus {
+    outline: none !important;
+  }
+
+  .dataTables_filter > label > input{
+    border-radius: 25px;
+  }
+
+  .ml{
+    margin-left: 5px;
+  }
+
+  .label-black{
+    color: rgb(0,0,0,0.7);
+    letter-spacing: 2px;
+    font-family: 'PT Serif', serif;
+  }
+
+  .swal2-confirm.swal2-styled.swal2-default-outline:focus{
+    box-shadow: none !important;
+  }
+
+  .swal2-confirm.swal2-styled.swal2-default-outline{
+    color: rgb(0,0,0,0.7);
+  }
+
+
+  .switch__container {
+    margin: 30px auto;
+    width: 120px;
+  }
+  
+  .switch > label, .switch-game > label, .switch-random > label {
+    display: block;
+    width: 54px;
+    height: 32px;
+    margin: 0px auto;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    background-color: #E6E9EC;
+  }
+  
+  .switch > input {
+    display: none;
+  }
+  
+  
+  .switch > label > i{
+    height: 28px;
+    width: 28px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 100px;
+    margin-top: 2px;
+    cursor: pointer !important;
+    margin-right: 23px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    pointer-events: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
+  }
+  
+  .switch > label:hover > i {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
+    transform: scale(1.01);
+  }
+  
+  .togg:checked+label>i {
+    margin-left: 24px;
+  }
+  
+  .switch > label:active{
+    background-color: #A6B9CB;
+  }
+  
+  .switch > label:active > i {
+    width: 34px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+  }
+  
+  .togg:checked+label:active>i {
+    margin-left: 18px;
+  }
+  
+  .togg:checked+label {
+    background-color: #00ff6a;
+  }
+
+  .text-green {
+    color: green;
+  }
+
+  .text-red{
+    color: red; 
+  }
+
+  .table-card{
+    background-color: rgb(0,0,0,0.7) !important;
+  }
+
+  .lknumber{
+    font-size: 40px !important;
+    border-radius:  50%;
+    margin-left : 5%;
+  }
+
+  .text{
+    color: rgb(0,0,0,0.7);
+  }
+
+  .sample-white{
+    color: #fff !important;
+  }
+
+  .cashin-nav > li > button{
+    color: #000 !important;
+  }
